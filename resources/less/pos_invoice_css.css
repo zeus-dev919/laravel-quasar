@@ -1,0 +1,70 @@
+.invoice-header {
+    text-align: center;
+    border-bottom: 1px dotted #ddd !important;
+}
+
+.invoice-logo {
+    width: 200px;
+}
+
+.company-details {
+    text-align: center;
+    margin-top: 5px;
+    border-bottom: 2px dotted #ddd !important;
+}
+
+.company-address {
+    white-space: pre;
+    margin-bottom: 0px;
+}
+
+.tax-invoice-details {
+}
+
+.invoice-customer-details {
+    width: 100%;
+    margin-bottom: 5px;
+}
+
+.tax-invoice-title {
+    text-align: center;
+    margin-top: 5px;
+}
+
+.tax-invoice-items {
+    margin-top: 10px;
+}
+
+.item-row {
+    border-bottom: 1px dotted #ddd !important;
+}
+
+.tax-invoice-totals {
+    margin-top: 5px;
+    border-top: 2px dotted #ddd !important;
+    border-bottom: 2px dotted #ddd !important;
+}
+
+.paid-amount-deatils {
+    margin-top: 10px;
+    text-align: center;
+}
+
+.paid-amount-row {
+    border-top: 2px dotted #ddd !important;
+    border-bottom: 2px dotted #ddd !important;
+}
+
+.thanks-details {
+    margin-top: 5px;
+    text-align: center;
+}
+
+.barcode-details {
+    margin-top: 10px;
+    text-align: center;
+}
+
+.footer-button {
+    text-align: center !important;
+}

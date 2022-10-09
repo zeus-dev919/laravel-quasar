@@ -1,0 +1,43 @@
+{
+    "private": true,
+    "scripts": {
+        "dev": "npm run development",
+        "development": "mix",
+        "watch": "mix watch",
+        "watch-poll": "mix watch -- --watch-options-poll=1000",
+        "hot": "mix watch --hot",
+        "prod": "npm run production",
+        "production": "mix --production"
+    },
+    "dependencies": {
+        "@chenfengyuan/vue-barcode": "^2.0.0-beta",
+        "ant-design-vue": "^3.1.0-rc.2",
+        "axios": "^0.23.0",
+        "chart.js": "^3.6.0",
+        "dayjs": "^1.10.7",
+        "jsbarcode": "^3.11.5",
+        "lodash-es": "^4.17.21",
+        "mini-dynamic-antd-theme": "^0.5.4",
+        "moment": "^2.29.1",
+        "resolve-url-loader": "^4.0.0",
+        "vue": "^3.2.20",
+        "vue-axios": "^3.3.7",
+        "vue-chart-3": "^0.5.8",
+        "vue-i18n": "^9.2.0-beta.32",
+        "vue-loader": "^16.8.1",
+        "vue-router": "^4.0.12",
+        "vue-template-compiler": "^2.6.14",
+        "vue3-colorpicker": "^2.0.4",
+        "vue3-perfect-scrollbar": "^1.5.5",
+        "vue3-styled-components": "^1.2.1",
+        "vuex": "^4.0.2"
+    },
+    "devDependencies": {
+        "laravel-mix": "^6.0.34",
+        "less": "^4.1.2",
+        "less-loader": "^10.2.0",
+        "postcss": "^8.3.11",
+        "sass": "^1.43.3",
+        "sass-loader": "^12.2.0"
+    }
+}
